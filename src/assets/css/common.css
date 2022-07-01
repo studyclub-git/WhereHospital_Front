@@ -1,0 +1,283 @@
+/*****************************************************************************
+ *                              Font Style
+ ****************************************************************************/
+.right-font{
+    text-align: right !important;
+}
+.left-font{
+    text-align: left !important;
+}
+.center-font{
+    text-align: center !important;
+}
+.font-16px{
+    font-size: 16px !important;
+}
+.font-20px{
+    font-size: 20px !important;
+}
+.gray-font {
+    color: gray !important;
+}
+.red-font {
+    color: red !important;
+}
+.font-16 {
+    font-size: 16px !important;
+}
+.font-18 {
+    font-size: 18px !important;
+}
+.font-20 {
+    font-size: 20px !important;
+}
+.bold {
+    font-weight: bold !important;
+}
+.lighter {
+    font-weight: lighter;
+}
+/*****************************************************************************
+ *                              Flex Style
+ ****************************************************************************/
+.flex{
+    display: flex;
+}
+.flex-box-center{
+    display: flex;
+    justify-content: center;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-direction-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+.flex-box-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-box-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-box-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/*****************************************************************************
+ *                              Button Style
+ ****************************************************************************/
+.button-box{
+    margin-top: 20px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    margin-bottom: 20px !important;
+}
+.red-button {
+    background-color:rgb(204,0,0) !important;
+    color: white !important;
+}
+.blue-button {
+    background-color: blue !important;
+    color: white !important;
+}
+.white-button {
+    background-color: white !important;
+    color: black !important;
+}
+.button-box button {
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 5px;
+    min-width: 70px;
+    border : 0;
+    border-radius: 5px;
+}
+
+
+/*****************************************************************************
+ *                              Floating Style
+ ****************************************************************************/
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+/*****************************************************************************
+ *                              Area Style
+ ****************************************************************************/
+
+.padding-0{
+    padding: 0px !important
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative
+}
+.margin-0 {
+    margin: 0px !important
+}
+.m-t-10 {
+    margin-top: 10px;
+}
+.m-l-10 {
+    margin-left: 10px;
+}
+.m-r-10 {
+    margin-right: 10px;
+}
+.m-b-10 {
+    margin-bottom: 10px;
+}
+.m-t-20 {
+    margin-top: 20px;
+}
+.m-l-20 {
+    margin-left: 20px;
+}
+.m-r-20 {
+    margin-right: 20px;
+}
+.m-b-20 {
+    margin-bottom: 20px;
+}
+.m-t-5 {
+    margin-top: 5px;
+}
+.m-l-5 {
+    margin-left: 5px;
+}
+.m-r-5 {
+    margin-right: 5px;
+}
+.m-b-5 {
+    margin-bottom: 5px;
+}
+.container {
+    width: 100% !important;
+    height: 100% !important;
+}
+.container .search {
+    width: 90% !important;
+    margin: 0 5% 0 5%;
+    height: 20% !important;
+}
+.container .content {
+    width: 90% !important;
+    margin: 5% !important;
+    height: 70% !important;
+}
+/*****************************************************************************
+ *                              Input Style
+ ****************************************************************************/
+.input-short{
+    width: 200px !important;
+}
+.input-normal{
+    width: 250px !important;
+}
+.input-short-middle{
+    width: 300px !important
+}
+.input-middle{
+    width: 400px !important
+}
+.input-middle-long{
+    width: 500px !important
+}
+.input-long {
+    width: 600px !important;
+}
+input.gray {
+    background-color: gainsboro !important;
+}
+
+/*****************************************************************************
+ *                              Display Style
+ ****************************************************************************/
+.none{
+    display: none;
+}
+.block {
+    display: block;
+}
+.table-cell {
+    display: table-cell
+}
+.inline-block{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+
+/*****************************************************************************
+ *                              Cursor Style
+ ****************************************************************************/
+.cursor-pointer {
+    cursor: pointer;
+}
+.cursor-grab {
+    cursor: grab;
+}
+.cursor-help {
+    cursor: help;
+}
+.cursor-wait {
+    cursor: wait;
+}
+.cursor-not-allow {
+    cursor: not-allowed;
+}
+.cursor-grabbing {
+    cursor: grabbing
+}
+
+/*****************************************************************************
+ *                              Login Style
+ ****************************************************************************/
+.login-box {
+    min-width: 400px;
+    min-height: 200px;
+}
+.login-box input {
+    width: 200px;
+    height: 50px;
+}
+.login-box input {
+    display: block;
+    margin-top: 5px;
+    min-width : 400px;
+}
